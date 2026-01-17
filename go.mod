@@ -1,4 +1,4 @@
-module github.com/mattuttis/prd-project/customer-service
+module github.com/mattuttis/customer-service
 
 go 1.25
 

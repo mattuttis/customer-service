@@ -5,8 +5,8 @@ import (
 
 	"github.com/gin-gonic/gin"
 	"github.com/google/uuid"
-	"github.com/mattuttis/prd-project/customer-service/internal/application"
-	"github.com/mattuttis/prd-project/customer-service/internal/domain"
+	"github.com/mattuttis/customer-service/internal/application"
+	"github.com/mattuttis/customer-service/internal/domain"
 )
 
 type CustomerHandler struct {

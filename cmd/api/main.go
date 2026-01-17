@@ -9,12 +9,12 @@ import (
 	"syscall"
 
 	"github.com/gin-gonic/gin"
-	"github.com/mattuttis/prd-project/customer-service/internal/adapter/inbound/handler"
-	"github.com/mattuttis/prd-project/customer-service/internal/adapter/outbound/persistence"
-	"github.com/mattuttis/prd-project/customer-service/internal/application"
-	"github.com/mattuttis/prd-project/customer-service/internal/config"
-	"github.com/mattuttis/prd-project/customer-service/pkg/logging"
-	"github.com/mattuttis/prd-project/customer-service/pkg/metrics/prometheus"
+	"github.com/mattuttis/customer-service/internal/adapter/inbound/handler"
+	"github.com/mattuttis/customer-service/internal/adapter/outbound/persistence"
+	"github.com/mattuttis/customer-service/internal/application"
+	"github.com/mattuttis/customer-service/internal/config"
+	"github.com/mattuttis/customer-service/pkg/logging"
+	"github.com/mattuttis/customer-service/pkg/metrics/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 )
 

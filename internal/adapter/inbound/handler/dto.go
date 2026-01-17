@@ -1,6 +1,6 @@
 package handler
 
-import "github.com/mattuttis/prd-project/customer-service/internal/domain"
+import "github.com/mattuttis/customer-service/internal/domain"
 
 type CreateCustomerRequest struct {
 	FirstName string `json:"first_name" binding:"required,min=1,max=100"`
